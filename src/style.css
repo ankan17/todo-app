@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.add-todo {
+  min-width: 0;
+}
+
+.todo-input {
+  min-width: 0;
+  overflow-y: auto;
+}
+
 .todo-input[readonly]:focus {
   outline: none;
 }
