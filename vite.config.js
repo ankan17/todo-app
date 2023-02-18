@@ -40,7 +40,4 @@ export default defineConfig({
     jsxFactory: "h",
     jsxFragment: "Fragment",
   },
-  optimizeDeps: {
-    include: ["@babel/runtime-corejs3"],
-  },
 });
