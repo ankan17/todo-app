@@ -1,0 +1,37 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple Todo app built with HTML, CSS, and JavaScript using Vite bundler, and TailwindCSS for styling.",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix"
+  },
+  "keywords": [
+    "todo-app",
+    "html",
+    "css",
+    "javascript",
+    "vite",
+    "tailwindcss"
+  ],
+  "author": "Ankan Poddar <apoddar1701@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.1.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-html": "^3.2.0"
+  }
+}
