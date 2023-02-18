@@ -16,9 +16,10 @@ const todoList = document.querySelector('ul[name="todo-list"]');
 const addTodo = (todo) => {
   // Generate the HTML for the new to-do
   const newTodoHtml = `
-    <li data-id="${
-      todo.id
-    }" class="p-3 border rounded-lg flex justify-between items-center">
+    <li
+      data-id="${todo.id}"
+      class="mt-3 p-3 border rounded-lg flex justify-between items-center"
+    >
       <input
         type="checkbox"
         class="text-lg font-medium mr-2 cursor-pointer"
